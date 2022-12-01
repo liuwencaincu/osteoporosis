@@ -21,7 +21,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 #应用标题
-st.title('Machine Learning Application for Predicting Bone Metastasis in TNBC')
+st.title('Machine Learning Application for Predicting Osteoporosis')
 
 male_gender = st.sidebar.selectbox("male_gender",('No','Yes'))
 age = st.sidebar.slider("age",0,100,50,1)
